@@ -29,15 +29,6 @@ def plot():
     #include the rendering of a button itself.
     return full_name
 
+
 if __name__ == '__main__':
   app.run(port=33507)
-
-
-
-
-from flask import Flask
-app = Flask(__name__)
-
-
-if __name__ == "__main__":
-    app.run():
