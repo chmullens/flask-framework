@@ -17,9 +17,9 @@ def index():
 def about():
   return render_template('about.html')
 
-# @app.route('/stockplotter')
-# def stockplotter:
-#     return render_template('stockplotter.html')
+@app.route('/stockplotter')
+def stockplotter():
+    return render_template('stockplotter.html')
 
 # @app.route('/plot', methods=['POST'])
 # def plot():
