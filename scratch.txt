@@ -28,6 +28,9 @@ if __name__ == "__main__":
 #Example proxy location if running on remote server:
 #202101.tditrain.com/user/don@thedataincubator.com/
 
+#Example call:
+#https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo
+
 #Example with symbol:
 def create_plot(stock_symbol):
     """
